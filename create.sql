@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS crud;
+CREATE DATABASE crud;
+USE crud;
+
+CREATE TABLE celulares(
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    modelo VARCHAR(35),
+    fabricante VARCHAR(35),
+    ano INTEGER
+);
